@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta charset="utf-8" />
+		<meta name="description" content="">
+		<meta name="author" content="shy">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<!--[if lt IE 9]>
+		<script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+		<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<div class="statistics">
+			<h3>个人属性</h3>
+			<p>HP:<span id="hp-now">100</span>/<span id="hp-max">100</span></p>
+			<p>EXP:<span id="exp-now">0</span>/<span id="exp-need">100</span></p>
+			<p>LV:<span id="lv">1</span></p>
+			<p>攻击力:<span id="low-atk">10</span>~<span id="high-atk">20</span></p>
+			<p>防御力:<span id="def">5</span></p>
+			<h3>个人物品</h3>
+			<p>传送宝石:<span id="key">0</span></p>
+			<p>小血瓶（回复50点血量）:<span id="sm-blood">2</span><button type="button" class="btn btn-danger" id="btn1">使用</button></p>
+			<p>大血瓶（回复全部血量）:<span id="lg-blood">1</span><button type="button" class="btn btn-danger" id="btn2">使用</button></p>
+			<h3>战斗失败次数:<span id="dead">0</span></h3>
+		</div>
+		<div class="box"></div>
+		<div class="clear"></div>
+		<div class="introduce">
+			<h3>游戏玩法介绍</h3>
+			<p>上下左右键控制人物进行移动，当人物遇到怪物时会进行战斗，如果战斗失败，会获得天使的祝福，血量恢复至50%
+			，但是战斗失败次数会增加并且经验值会相应的减少30点，请尽量合理使用恢复药水，以尽可能少的战斗失败完成本游戏。使用传送阵进入下一张地图需要使用一颗传送宝石，传送宝石可以通过搜索宝箱获得
+				最终Boss会根据玩家的等级来生成相应等级的Boss。排行榜会记录最少战斗失败的玩家及其次数以及最高等级完成游戏的玩家及其等级</p>
+		</div>
+		<div class="infos">
+			<div class="list">
+				<h3>排行榜</h3>
+				<div class="list-txt"></div>
+			</div>
+			<div class="monster-info">
+				<h3>怪物信息</h3>
+				<small>注意：怪物攻击会随玩家等级而提升</small>
+				<div class="monster-txt">
+					<p><span>NAME:小幽灵</span><span class="spanlm">HP:100</span></p>
+					<p><span>ATK:8~17</span><span class="spanlm">DEF:5</span></p>
+				</div>
+				<div class="monster-txt">
+					<p><span>NAME:小火球</span><span class="spanlm">HP:200</span></p>
+					<p><span>ATK:20~29</span><span class="spanlm">DEF:10</span></p>
+				</div>
+				<div class="monster-txt">
+					<p><span>NAME:小青蛇</span><span class="spanlm">HP:350</span></p>
+					<p><span>ATK:25~34</span><span class="spanlm">DEF:15</span></p>
+				</div>
+				<div class="monster-txt">
+					<p><span>NAME:盗贼</span><span class="spanlm">HP:500</span></p>
+					<p><span>ATK:30~39</span><span class="spanlm">DEF:20</span></p>
+				</div>
+				<div class="monster-txt">
+					<p><span>NAME:盗贼法师</span><span class="spanlm">HP:700</span></p>
+					<p><span>ATK:40~45</span><span class="spanlm">DEF:30</span></p>
+				</div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

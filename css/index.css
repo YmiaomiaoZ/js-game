@@ -1,0 +1,93 @@
+﻿html,
+body {
+	line-height: 1.75em;
+	font-family: "微软雅黑";
+
+}
+
+body{
+	min-width: 1200px;
+	background-color: black;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 500px;
+	height: 500px;
+	margin-top: 30px;
+	background:url("../img/土地.png");
+	border: 3px solid white;
+	float: left;
+
+}
+
+.statistics{
+	width: 300px;
+	height: 500px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border: 3px solid white;
+	float: left;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+
+button{
+	float: right;
+	line-height: 30px;
+}
+
+p{
+	height: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+.introduce{
+    width: 800px;
+    height: 150px;
+    margin-top: 50px;
+    color: white;
+    margin-left: 150px;
+}
+
+.infos{
+    position: absolute;
+    top: 30px;
+    left: 1050px;
+    width: 250px;
+    color: white;
+}
+
+.list-txt{
+    height: 100px;
+    border: 3px solid white;
+}
+
+.monster-txt{
+    margin-top: -3px;
+    border: 3px solid white;
+}
+
+.monster-txt span{
+    display:inline-block;
+    width: 100px;
+    height: 20px;
+}
+
+small{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.monster-txt span{
+    margin-top: 10px;
+   margin-left: 20px;
+}
